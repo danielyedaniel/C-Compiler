@@ -10,15 +10,15 @@ void processTest(Node *root, Procedure &proc, string endLabel);
 void processStatements(Node *root, Procedure &proc);
 
 int loopNum = 0;
-string beginLoop = "burgerkingstartloopharveyssucks";
-string endLoop = "burgerkingendloopharveysstillsucks";
+string beginLoop = "loopBegin";
+string endLoop = "loopEnd";
 
-string elseLabel = "blackcarredvan";
-string endIf = "yellowcarredcar";
+string elseLabel = "else";
+string endIf = "endif";
 
 string nullHandling = "skipNullHandling";
 
-string procedurePrefix = "funProcedure";
+string procedurePrefix = "procedure";
 
 void Add(int d, int s, int t)
 {
